@@ -1,0 +1,59 @@
+a) Quais são os atributos (variáveis) da classe "Placa"?
+    private String pais, private String codigo
+
+b) Porque os atributos da classe "Placa" são privados?
+    porque os atributos são referentes, e existem apenas na classe "placa"
+
+c) A classe "Placa" tem método construtor? O que ele faz? Quando
+ele é executado?
+    Sim, possui, o metodo "public placa". Ele é executado quando o usuário está inserindo o código 
+    da placa de seu veiculo, e verifica se esta no padrão das placas, caso nao esteja, ele informa
+    e para de executar.    
+
+d) Toda a classe deve ter um método construtor? O que acontece
+quando uma classe não tem método construtor?
+    nao necessariamente, por exemplo, a classe app não possui nenhum metodo construtor, ela apenas 
+    chama os metodos das outras classes.
+
+e) O que são métodos “getter” e “setter”? O que os caracteriza?
+    SET altera, GET consulta  
+
+f) A classe "Placa" tem métodos do tipo "setter"? Por quê?
+    porque é necessario ter um valor atribuido as variaveis 
+
+g) Quais as implicações em se criar métodos “setter” para todos
+os atributos de uma classe?
+    porque todos os atributos poderão ser alterados
+
+h) Quantos atributos tem a classe "Veiculo"? De que tipo são?
+Algum dos atributos de "Veiculo" indica um relacionamento
+entre as classes?
+    possui 3, private final double consumoPorLitro, private Placa placa,
+    private double combustivel -- o atributo private Placa placa posssui um relacionamento 
+    com o metodo placa da classe placa.
+
+i) Porque os atributos da classe "Veiculo" são privados? Qual a
+vantagem de se manter os atributos das classes privados?
+
+
+j) A classe "Veiculo" tem método construtor? O que ele faz?
+Quando é executado?
+    possui sim, ele, ele consulta e altera as informações das variaveis
+
+k) Porque não é necessário criar uma instancia da classe "Placa"
+no construtor da classe "Veiculo"?
+    porque ele recebe uma placa como parametro da outra classe.
+
+l) A classe "Veiculo" tem métodos do tipo "setter"? Por quê?
+    para ser possivel alterar, pois cada veiculo possui uma placa, um consumo por litro,
+    o combustivel no tanque varia o tempo inteiro, por isso precisa ser "setado" varias vezes.
+
+m)Para que serve o modificador "final" no atributo
+"consumoPorLitro"?
+    o modificador serve para opr exemplo, em uma variavel, fazer com que ela receba 
+    apenas um valor. Se recebeu um valor, esse mesmo é imutavel.
+
+n) De que maneira funcionam os métodos
+"getCombustivelNoTanque", "abastece" e "dirige"?
+
+o) Quantas instâncias de que classes são criadas no "main"?
